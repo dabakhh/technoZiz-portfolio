@@ -16,46 +16,62 @@
   </head>
   <body>
     <header
-      class="flex justify-between md:block sm:flex lg:flex items-center py-2 px-10 md:p-0 lg:py-2 border-b-[#FFD550] border-b- sm:mb-20"
+      class="bg-[#AAEBFF] flex justify-between md:block sm:flex lg:flex items-center py-2 px-10 md:p-0 lg:py-2 border-b-[#FFD550] border-b- sm:mb-10"
     >
       <a href="/index.html">
         <div
-          class="flex flex-col items-center md:mb-2 md:bg-gray-100 lg:bg-white md:pb-5 lg:pb-0 pl-10"
+          class="flex flex-col items-center md:mb-2 md:bg-gray-100 lg:bg-[#AAEBFF] md:pb-5 lg:pb-0 pl-10"
         >
-          <p class="text-4xl md:text-5xl lg:text-4xl text-blue-400">
+          <p class="text-4xl md:text-5xl lg:text-4xl text-blue-400 lg:text-blue-700">
             <i class="fa-solid fa-code"></i>
           </p>
           <h1
-            class="text-4xl md:text-5xl lg:text-4xl md:-mt-2 text-blue-400 font-bold"
+            class="text-4xl md:text-5xl lg:text-4xl md:-mt-2 text-blue-400 lg:text-blue-700 font-bold"
           >
-            Techno<span class="text-[#FFD550]">Ziz</span>
+            Techno<span class="text-[#FFD550] lg:text-black">Ziz</span>
           </h1>
           <p
-            class="tracking-wide md:text-2xl lg:text-xl text-[#FFD550] font-medium"
+            class="tracking-wide md:text-2xl lg:text-xl text-[#FFD550] lg:text-black font-medium"
           >
             PORTFOLIO
           </p>
         </div>
       </a>
       <ul
-        class="hidden md:flex md:justify-between md:px-5 md:pb-2 md:text-xl flex flex-row items-center gap-10 text-[#AAEBFF] md:text-blue-400 font-medium"
+        class="hidden md:flex md:justify-between md:px-5 md:pb-2 md:text-xl flex flex-row items-center gap-10 text-[#AAEBFF] lg:text-black md:text-blue-400 font-medium"
       >
-        <li><a href="">Cours</a></li>
-        <li class=""><a href="">Evenements</a></li>
-        <li class=""><a href="">A propos</a></li>
-        <li class=""><a href="">CGU</a></li>
-        <li class=""><a href="">Connexion</a></li>
-        <li>
-          <button
-            class="bg-[#FFD550] text-white w-[200px] h-[50px] rounded-2xl"
-          >
-            <a href="./register.html">Inscription</a>
-          </button>
-        </li>
+        <li><a href="/assets/pages/cours.html">Cours</a></li>
+        <li class=""><a href="/assets/pages/events.html">Evenements</a></li>
+        <li class=""><a href="/assets/pages/about.html">A propos</a></li>
+        <li class=""><a href="/assets/pages/cgu.html">CGU</a></li>
+        <li class=""><a href="/assets/pages/login.html">Connexion</a></li>
+        <li><a href="/assets/pages/register.html" class="bg-[#FFD550] lg:bg-black text-white py-2 px-8 rounded-xl">Inscription</a></li>
       </ul>
       <div class="md:hidden text-5xl text-blue-600">
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
+
+    <section class="bg-[#FFD550] grid grid-cols-2 m-8 rounded-2xl p-20">
+      <div><h1 class="font-extrabold font-sen text-xl m-5 sm:text-2xl lg:text-6xl">Découvrez ici les conditions générales d’utilisations.</h1></div>
+      <div class="flex justify-center items-center"><img class="h-[100%]" src="/assets/img/followcourse.png" alt=""></div>
+    </section>
+    <section class="m-8">
+      <div><h3 class="font-[Sen] font-bold text-3xl">I. Objet et Acceptation des Conditions</h3>
+      <p class="w-[75%] font-[Sen]">Les présentes Conditions Générales d'Utilisation ont pour objet de définir les modalités de mise à disposition des services du site et les conditions d'utilisation par l'Utilisateur. Toute inscription ou utilisation du site implique l'acceptation sans réserve par l'utilisateur des présentes CGU. Le site se réserve le droit de modifier unilatéralement le contenu des présentes clauses à tout moment pour les adapter aux évolutions de la plateforme.</p></div>
+
+      <div><h3 class="font-[Sen] font-bold text-3xl">II. Accès au Service et Création de Compte</h3>
+      <p class="lg:w-[75%] font-[Sen]">L'accès à la plateforme est ouvert à toute personne physique disposant d'une connexion internet. Toutefois, l'accès aux cours et aux contenus pédagogiques nécessite la création d'un compte personnel. L'Utilisateur s'engage à fournir des informations exactes et à maintenir la confidentialité de ses identifiants. Toute utilisation du compte par un tiers relève de la responsabilité exclusive de l'Utilisateur. Le site s'efforce d'assurer un accès 24h/24, mais ne peut être tenu responsable des interruptions pour maintenance ou cas de force majeure.</p></div>
+
+      <div><h3 class="font-[Sen] font-bold text-3xl">III. Propriété Intellectuelle et Usage du Contenu</h3>
+      <p class="lg:w-[75%] font-[Sen]">L'ensemble des contenus (vidéos, textes, exercices, codes sources, logos) présents sur la plateforme est protégé par le droit d'auteur et la propriété intellectuelle. L'accès aux formations confère à l'Utilisateur une licence d'utilisation personnelle, non exclusive et non transférable. Toute reproduction, distribution, vente ou exploitation du contenu pédagogique à des fins commerciales ou publiques, sans autorisation écrite préalable de l'éditeur du site, est strictement interdite et peut donner lieu à des poursuites judiciaires.</p></div>
+
+      <div><h3 class="font-[Sen] font-bold text-3xl">IV. Responsabilités de l'Utilisateur et Code de Conduite</h3>
+      <p class="lg:w-[75%] font-[Sen]">L'Utilisateur s'engage à utiliser la plateforme de manière respectueuse et conforme aux lois en vigueur. Dans les espaces interactifs (forums, commentaires, chats), il est interdit de diffuser des contenus injurieux, diffamatoires, racistes ou portant atteinte à la vie privée d'autrui. En cas de non-respect de ces règles, le site se réserve le droit de suspendre ou de supprimer le compte de l'Utilisateur sans préavis ni remboursement, le cas échéant.</p></div>
+
+      <div><h3 class="font-[Sen] font-bold text-3xl">V. Protection des Données Personnelles</h3>
+      <p class="lg:w-[75%] font-[Sen]">Le site collecte des données personnelles nécessaires à la gestion des comptes et au suivi de la progression pédagogique. Conformément aux réglementations en vigueur (notamment le RGPD), l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles. Ces données ne sont jamais cédées à des tiers à des fins commerciales sans le consentement explicite de l'Utilisateur. Pour plus de détails, l'Utilisateur est invité à consulter notre Politique de Confidentialité.</p></div>
+    </section>
+
   </body>
 </html>

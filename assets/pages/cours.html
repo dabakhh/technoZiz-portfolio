@@ -14,48 +14,164 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>TechnoZiz</title>
   </head>
-  <body>
-    <header
-      class="flex justify-between md:block sm:flex lg:flex items-center py-2 px-10 md:p-0 lg:py-2 border-b-[#FFD550] border-b- sm:mb-20"
-    >
-      <a href="/index.html">
+  <body class="grid max-md:flex max-md:flex-col">
+   
+    <section class="bg-[#AAEBFF] lg:fixed lg:overflow-y-scroll lg:h-full">
+        <a href="/index.html">
         <div
-        class="flex flex-col items-center md:mb-2 md:bg-gray-100 lg:bg-white md:pb-5 lg:pb-0 pl-10"
-      > 
-        <p class="text-4xl md:text-5xl lg:text-4xl text-blue-400">
-          <i class="fa-solid fa-code"></i>
-        </p>
-        <h1
-          class="text-4xl md:text-5xl lg:text-4xl md:-mt-2 text-blue-400 font-bold"
+          class="flex flex-col items-center md:mb-2 md:pb-5 lg:pb-0 p-2"
         >
-          Techno<span class="text-[#FFD550]">Ziz</span>
-        </h1>
-        <p
-          class="tracking-wide md:text-2xl lg:text-xl text-[#FFD550] font-medium"
-        >
-          PORTFOLIO
-        </p>
-      </div>
-      </a>
-      <ul
-        class="hidden md:flex md:justify-between md:px-5 md:pb-2 md:text-xl flex flex-row items-center gap-10 text-[#AAEBFF] md:text-blue-400 font-medium"
-      >
-        <li><a href="">Cours</a></li>
-        <li class=""><a href="">Evenements</a></li>
-        <li class=""><a href="">A propos</a></li>
-        <li class=""><a href="">CGU</a></li>
-        <li class=""><a href="">Connexion</a></li>
-        <li>
-          <button
-            class="bg-[#FFD550] text-white w-[200px] h-[50px] rounded-2xl"
+          <p class="text-4xl md:text-5xl lg:text-4xl text-blue-700">
+            <i class="fa-solid fa-code"></i>
+          </p>
+          <h1
+            class="text-4xl md:text-5xl lg:text-4xl md:-mt-2 text-blue-700 font-bold"
           >
-            <a href="./register.html">Inscription</a>
-          </button>
-        </li>
+            Techno<span class="text-black">Ziz</span>
+          </h1>
+          <p
+            class="tracking-wide md:text-2xl lg:text-xl text-black font-medium"
+          >
+            PORTFOLIO
+          </p>
+        </div>
+      </a>
+
+      <ul class="h-[400px] text-[30px] ml-5 max-lg:hidden">
+        <a href=""><li class="border-b pl-2 bg-[#FFD550] ">HTML</li></a>
+        <a href=""><li class="border-b pl-2">CSS</li></a>
+        <a href=""><li class="border-b pl-2">JavaScript</li></a>
+        <a href=""><li class="border-b pl-2">PHP</li></a>
+        <a href=""><li class="border-b pl-2">Java</li></a>
+        <a href=""><li class="border-b pl-2">Python</li></a>
+        <a href=""><li class="border-b pl-2">Laravel</li></a>
+        <a href=""><li class="border-b pl-2">Symphony</li></a>
+        <a href=""><li class="border-b pl-2">Angular</li></a>
+        <a href=""><li class="border-b pl-2">React</li></a>
+        <a href=""><li class="border-b pl-2">VueJs</li></a>
+        <a href=""><li class="border-b pl-2">Flask</li></a>
+        <a href=""><li class="border-b pl-2">Django</li></a>
+        <a href=""><li class="border-b pl-2">Spring</li></a>
       </ul>
-      <div class="md:hidden text-5xl text-blue-600">
-        <i class="fa-solid fa-bars"></i>
+    </section>
+
+    <section class="relative lg:ml-[15%] max-md:mx-16">
+      <section class="mt-8">
+        <h3 class="text-3xl text-[#FFD550] text-center font-bold font-[Sen]">Liste des Cours</h3>
+      </section>
+      <section class="md:mx-16">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="w-[20%] md:w-[40%]"
+            src="/assets/img/htmlogo.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">Html</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="w-[20%] md:w-[40%]"
+            src="/assets/img/csslogo.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">Css</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="w-[20%] md:w-[40%]"
+            src="/assets/img/jslogo.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">JavaScript</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="h-[150px]"
+            src="/assets/img/phplogo.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">php</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="w-[20%] md:w-[40%]"
+            src="/assets/img/pythonlogo.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">Python</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="h-[150px]"
+            src="/assets/img/javalogo.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">Java</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="w-[20%] md:w-[40%]"
+            src="/assets/img/angularlogo.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">Angular</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="h-[150px]"
+            src="/assets/img/laravel.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">Laravel</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
+        <div class="flex flex-col items-center border-1 rounded-2xl p-5">
+          <img
+            class="w-[20%] md:w-[40%]"
+            src="/assets/img/react.png"
+            alt="Logo Html"
+          />
+          <h2 class="font-extrabold font-sen text-5xl">React</h2>
+          <p class="text-xl sm:text-2xl md:mt-5">
+            Avant de pouvoir partager un cours, il va falloir faire une demande
+            à l’admin, qui va a son tours étudie.
+          </p>
+        </div>
       </div>
-    </header>
+      </section>
+    </section>
+
     </body>
 </html>
