@@ -16,7 +16,7 @@
   </head>
   <body>
     <header
-      class="flex justify-between md:block sm:flex lg:flex items-center py-2 px-10 md:p-0 lg:py-2 border-b-[#FFD550] border-b-2"
+      class="flex justify-between md:block sm:flex lg:flex lg:gap-60 items-center py-2 px-10 md:p-0 lg:py-2 border-b-[#FFD550] border-b-2"
     >
       <div
         class="flex flex-col items-center md:mb-2 md:bg-gray-100 lg:bg-white md:pb-5 lg:pb-0 pl-10"
@@ -35,8 +35,8 @@
           PORTFOLIO
         </p>
       </div>
-      <ul
-        class="hidden md:flex md:justify-between md:px-5 md:pb-2 md:text-xl flex flex-row items-center gap-10 text-[#AAEBFF] md:text-blue-400 font-medium"
+      <ul id="list"
+        class="hidden md:flex md:gap-12 md:px-5 md:pb-2 md:text-xl flex flex-col md:flex-row absolute lg:static w-full h-[100vh] md:h-auto md:py-4 top-30 left-0 bg-white items-center gap-10 text-[#AAEBFF] md:text-blue-400 font-medium"
       >
         <li><a href="assets/pages/cours.html">Cours</a></li>
         <li class=""><a href="assets/pages/events.html">Evenements</a></li>
@@ -45,9 +45,13 @@
         <li class=""><a href="assets/pages/login.html">Connexion</a></li>
         <li><a href="assets/pages/register.html" class="bg-[#FFD550] text-white py-2 px-8 rounded-2xl">Inscription</a></li>
       </ul>
-      <div class="md:hidden text-5xl text-blue-600">
+      <div id="hamburger" class="md:hidden text-5xl text-blue-600">
         <i class="fa-solid fa-bars"></i>
       </div>
+      <div id="retour" class="hidden md:invisible text-5xl">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      
     </header>
 
     <!-- hero section -->
@@ -409,6 +413,6 @@
       </div>
     </footer>
 
-    <script src="assets/js/test.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
