@@ -15,41 +15,106 @@
     <title>TechnoZiz</title>
   </head>
   <body>
-    <header
-      class="flex justify-between md:block sm:flex lg:flex items-center py-2 px-10 md:p-0 lg:py-2 border-b-[#FFD550] border-b- sm:mb-20"
-    >
-      <a href="/index.html">
+   <section class="bg-[#AAEBFF] lg:fixed  lg:h-full">
+        <a href="/index.html">
         <div
-          class="flex flex-col items-center md:mb-2 md:bg-gray-100 lg:bg-white md:pb-5 lg:pb-0 pl-10"
+          class="flex flex-col items-center md:mb-2 md:pb-5 lg:pb-0 p-2"
         >
-          <p class="text-4xl md:text-5xl lg:text-4xl text-blue-400">
+          <p class="text-4xl md:text-5xl lg:text-4xl text-blue-700">
             <i class="fa-solid fa-code"></i>
           </p>
           <h1
-            class="text-4xl md:text-5xl lg:text-4xl md:-mt-2 text-blue-400 font-bold"
+            class="text-4xl md:text-5xl lg:text-4xl md:-mt-2 text-blue-700 font-bold"
           >
-            Techno<span class="text-[#FFD550]">Ziz</span>
+            Techno<span class="text-black">Ziz</span>
           </h1>
           <p
-            class="tracking-wide md:text-2xl lg:text-xl text-[#FFD550] font-medium"
+            class="tracking-wide md:text-2xl lg:text-xl text-black font-medium"
           >
             PORTFOLIO
           </p>
         </div>
       </a>
-      <ul
-        class="hidden md:flex md:justify-between md:px-5 md:pb-2 md:text-xl flex flex-row items-center gap-10 text-[#AAEBFF] md:text-blue-400 font-medium"
-      >
-        <li><a href="/assets/pages/cours.html">Cours</a></li>
-        <li class=""><a href="/assets/pages/events.html">Evenements</a></li>
-        <li class=""><a href="/assets/pages/about.html">A propos</a></li>
-        <li class=""><a href="/assets/pages/cgu.html">CGU</a></li>
-        <li class=""><a href="/assets/pages/login.html">Connexion</a></li>
-        <li><a href="/assets/pages/register.html" class="bg-[#FFD550] text-white py-2 px-8 rounded-xl">Inscription</a></li>
+      
+      <ul class="h-[400px] text-[30px] ml-5 max-lg:hidden">
+        <a href=""><li class="border-b pl-2 bg-[#FFD550] ">All</li></a>
       </ul>
-      <div class="md:hidden text-5xl text-blue-600">
-        <i class="fa-solid fa-bars"></i>
+      </section>
+
+      <section class="pt-8">
+        <h3 class="text-3xl text-[#FFD550] text-center font-bold font-[Sen]">Liste des Evènements</h3>
+        <section class="flex justify-center gap-12 my-8"><textarea
+            name=""
+            id=""
+            class="px-3 pt-2 mb-4 text-gray-700 border-4 w-64 border-[#AAEBFF] rounded-xl resize-none"
+            placeholder="Rechercher"
+          ></textarea>
+          <input class="bg-[#AAEBFF] px-6 py-3 rounded-xl h-15 max-[460px]:hidden" type="button" value="Rechercher">
+        </section>
+    
+         <div class="sm:flex flex flex-col md:grid md:grid-cols-2 gap-10 lg:ml-[20%] mx-10">
+        <div class="flex flex-col md:w-auto border-[#CECECE] border-3 border-t-1 rounded-xl shadow-xl pb-4">
+          <div
+            class="flex flex-col gap-4 p-5 bg-white rounded-4xl md:h-auto md:flex md:items-center md:justify-center">
+            <div class="w-full px-2"><i class="fa-solid fa-calendar text-[#FFD550] lg:text-5xl max-md:text-4xl"></i></div>
+            <p class="text-2xl font-bold text-[#AAEBFF]">Titre de l'évènement</p>
+            <p class="text-xl max-sm:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae sit. Cumque, cum dignissimos aliquam ullam quia temporibus consectetur voluptates, iusto inventore ut necessitatibus quam porro maxime consequatur? Dolorum, distinctio?</p>
+            <p class="text-2xl font-bold text-[#AAEBFF]">22/03/2029/ 12h30mn</p>
+          </div>
+          <a href="" class="bg-[#FFD550] text-center w-[50%] sm:w-[80%] md:w-[60%] font-bold px-5 py-2 ml-5 rounded-xl">S'inscrire <i class="fa-solid fa-right-long text-white"></i></a>
+        </div>
+
+       <div class="flex flex-col md:w-auto border-[#CECECE] border-3 border-t-1 rounded-xl shadow-xl pb-4">
+          <div
+            class="flex flex-col gap-4 p-5 bg-white rounded-4xl md:h-auto md:flex md:items-center md:justify-center">
+            <div class="w-full px-2"><i class="fa-solid fa-calendar text-[#FFD550] lg:text-5xl max-md:text-4xl"></i></div>
+            <p class="text-2xl font-bold text-[#AAEBFF]">Titre de l'évènement</p>
+            <p class="text-xl max-sm:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae sit. Cumque, cum dignissimos aliquam ullam quia temporibus consectetur voluptates, iusto inventore ut necessitatibus quam porro maxime consequatur? Dolorum, distinctio?</p>
+            <p class="text-2xl font-bold text-[#AAEBFF]">22/03/2029/ 12h30mn</p>
+          </div>
+          <a href="" class="bg-[#FFD550] text-center w-[33%] sm:w-[80%] md:w-[60%] font-bold px-5 py-2 ml-5 rounded-xl">S'inscrire <i class="fa-solid fa-right-long text-white"></i></a>
+        </div>
+
+        <div class="flex flex-col md:w-auto border-[#CECECE] border-3 border-t-1 rounded-xl shadow-xl pb-4">
+          <div
+            class="flex flex-col gap-4 p-5 bg-white rounded-4xl md:h-auto md:flex md:items-center md:justify-center">
+            <div class="w-full px-2"><i class="fa-solid fa-calendar text-[#FFD550] lg:text-5xl max-md:text-4xl"></i></div>
+            <p class="text-2xl font-bold text-[#AAEBFF]">Titre de l'évènement</p>
+            <p class="text-xl max-sm:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae sit. Cumque, cum dignissimos aliquam ullam quia temporibus consectetur voluptates, iusto inventore ut necessitatibus quam porro maxime consequatur? Dolorum, distinctio?</p>
+            <p class="text-2xl font-bold text-[#AAEBFF]">22/03/2029/ 12h30mn</p>
+          </div>
+          <a href="" class="bg-[#FFD550] text-center w-[33%] sm:w-[80%] md:w-[60%] font-bold px-5 py-2 ml-5 rounded-xl">S'inscrire <i class="fa-solid fa-right-long text-white"></i></a>
+        </div>
+        <div class="flex flex-col md:w-auto border-[#CECECE] border-3 border-t-1 rounded-xl shadow-xl pb-4">
+          <div
+            class="flex flex-col gap-4 p-5 bg-white rounded-4xl md:h-auto md:flex md:items-center md:justify-center">
+            <div class="w-full px-2"><i class="fa-solid fa-calendar text-[#FFD550] lg:text-5xl max-md:text-4xl"></i></div>
+            <p class="text-2xl font-bold text-[#AAEBFF]">Titre de l'évènement</p>
+            <p class="text-xl max-sm:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae sit. Cumque, cum dignissimos aliquam ullam quia temporibus consectetur voluptates, iusto inventore ut necessitatibus quam porro maxime consequatur? Dolorum, distinctio?</p>
+            <p class="text-2xl font-bold text-[#AAEBFF]">22/03/2029/ 12h30mn</p>
+          </div>
+          <a href="" class="bg-[#FFD550] text-center w-[33%] sm:w-[80%] md:w-[60%] font-bold px-5 py-2 ml-5 rounded-xl">S'inscrire <i class="fa-solid fa-right-long text-white"></i></a>
+        </div>
+        <div class="flex flex-col md:w-auto border-[#CECECE] border-3 border-t-1 rounded-xl shadow-xl pb-4">
+          <div
+            class="flex flex-col gap-4 p-5 bg-white rounded-4xl md:h-auto md:flex md:items-center md:justify-center">
+            <div class="w-full px-2"><i class="fa-solid fa-calendar text-[#FFD550] lg:text-5xl max-md:text-4xl"></i></div>
+            <p class="text-2xl font-bold text-[#AAEBFF]">Titre de l'évènement</p>
+            <p class="text-xl max-sm:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae sit. Cumque, cum dignissimos aliquam ullam quia temporibus consectetur voluptates, iusto inventore ut necessitatibus quam porro maxime consequatur? Dolorum, distinctio?</p>
+            <p class="text-2xl font-bold text-[#AAEBFF]">22/03/2029/ 12h30mn</p>
+          </div>
+          <a href="" class="bg-[#FFD550] text-center w-[33%] sm:w-[80%] md:w-[60%] font-bold px-5 py-2 ml-5 rounded-xl">S'inscrire <i class="fa-solid fa-right-long text-white"></i></a>
+        </div>
+        <div class="flex flex-col md:w-auto border-[#CECECE] border-3 border-t-1 rounded-xl shadow-xl pb-4">
+          <div
+            class="flex flex-col gap-4 p-5 bg-white rounded-4xl md:h-auto md:flex md:items-center md:justify-center">
+            <div class="w-full px-2"><i class="fa-solid fa-calendar text-[#FFD550] lg:text-5xl max-md:text-4xl"></i></div>
+            <p class="text-2xl font-bold text-[#AAEBFF]">Titre de l'évènement</p>
+            <p class="text-xl max-sm:text-[14px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae sit. Cumque, cum dignissimos aliquam ullam quia temporibus consectetur voluptates, iusto inventore ut necessitatibus quam porro maxime consequatur? Dolorum, distinctio?</p>
+            <p class="text-2xl font-bold text-[#AAEBFF]">22/03/2029/ 12h30mn</p>
+          </div>
+          <a href="" class="bg-[#FFD550] text-center w-[33%] sm:w-[80%] md:w-[60%] font-bold px-5 py-2 ml-5 rounded-xl">S'inscrire <i class="fa-solid fa-right-long text-white"></i></a>
+        </div>
       </div>
-    </header>
   </body>
 </html>
